@@ -1,0 +1,104 @@
+@font-face {
+    font-family: "Asap-Regular";
+    src: url("/assets/fonts/Asap-Regular.eot"); /* IE9 Compat Modes */
+    src: url("/assets/fonts/Asap-Regular.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
+      url("assets/fonts/Asap-Regular.ttf") format("truetype"), /* Safari, Android, iOS */
+      url("assets/fonts/Asap-Regular.woff") format("woff"); /* Modern Browsers */
+    font-weight: normal;
+    font-style: normal;
+  }
+
+  @font-face {
+    font-family: "LucidaSans-Italic";
+    src: url("assets/fonts/lucidasansitalic.eot"); /* IE9 Compat Modes */
+    src: url("assets/fonts/lucidasansitalic.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
+      url("assets/fonts/lucidasansitalic.ttf") format("truetype"), /* Safari, Android, iOS */
+      url("assets/fonts/lucidasansitalic.woff") format("woff"); /* Modern Browsers */
+    font-weight: normal;
+    font-style: normal;
+  }
+
+  @font-face {
+    font-family: "OpenSans-Regular";
+    src: url("assets/fonts/OpenSans-Regular.eot"); /* IE9 Compat Modes */
+    src: url("assets/fonts/OpenSans-Regular.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
+      url("assets/fonts/OpenSans-Regular.ttf") format("truetype"), /* Safari, Android, iOS */
+      url("assets/fonts/OpenSans-Regular.woff") format("woff"); /* Modern Browsers */
+    font-weight: normal;
+    font-style: normal;
+  }
+
+@font-face {
+    font-family:  "PTSans-Regular";
+    src: url(/assets/fonts/PTSans-Regular.eot);
+    src: url(/assets/fonts/PTSans-Regular.eot?#iefix) format("embedded-opentype"),
+         url(/assets/fonts/PTSans-Regular.woff) format("woff"),
+         url(/assets/fonts/PTSans-Regular.ttf) format("truetype");
+    font-style: normal;
+    font-weight: normal;     
+}
+
+@font-face {
+    font-family: "PTSans-Narrow";
+    src: url("assets/fonts/PTSansNarrow-Regular.eot"); /* IE9 Compat Modes */
+    src: url("assets/fonts/PTSansNarrow-Regular.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
+      url("assets/fonts/PTSansNarrow-Regular.ttf") format("truetype"), /* Safari, Android, iOS */
+      url("assets/fonts/PTSansNarrow-Regular.woff") format("woff"); /* Modern Browsers */
+    font-weight: normal;
+    font-style: normal;
+  }
+
+  @font-face {
+    font-family: "SegoeUI";
+    src: url("assets/fonts/SegoeUI.eot"); /* IE9 Compat Modes */
+    src: url("assets/fonts/SegoeUI.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
+      url("assets/fonts/SegoeUI.ttf") format("truetype"), /* Safari, Android, iOS */
+      url("assets/fonts/SegoeUI.woff") format("woff"); /* Modern Browsers */
+    font-weight: normal;
+    font-style: normal;
+  }
+
+  @font-face {
+    font-family: "SegoeUI-Bold";
+    src: url("assets/fonts/SegoeUIBold.eot"); /* IE9 Compat Modes */
+    src: url("assets/fonts/SegoeUIBold.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
+      url("assets/fonts/SegoeUIBold.ttf") format("truetype"), /* Safari, Android, iOS */
+      url("assets/fonts/SegoeUIBold.woff") format("woff"); /* Modern Browsers */
+    font-weight: normal;
+    font-style: normal;
+  }
+
+  @font-face {
+    font-family: "SegoeUI-Light";
+    src: url("assets/fonts/SegoeUILight.eot"); /* IE9 Compat Modes */
+    src: url("assets/fonts/SegoeUILight.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
+      url("assets/fonts/SegoeUILight.ttf") format("truetype"), /* Safari, Android, iOS */
+      url("assets/fonts/SegoeUILight.woff") format("woff"); /* Modern Browsers */
+    font-weight: normal;
+    font-style: normal;
+  }
+
+  @font-face {
+    font-family: "SegoeWP";
+    src: url("assets/fonts/SegoeWPRegular.eot"); /* IE9 Compat Modes */
+    src: url("assets/fonts/SegoeWPRegular.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
+      url("assets/fonts/SegoeWPRegular.ttf") format("truetype"), /* Safari, Android, iOS */
+      url("assets/fonts/SegoeWPRegular.woff") format("woff"); /* Modern Browsers */
+    font-weight: normal;
+    font-style: normal;
+  }
+
+@font-face {
+    font-family: "SegoeWP-Light";
+    src: url("assets/fonts/SegoeWPLight.eot"); /* IE9 Compat Modes */
+    src: url("assets/fonts/SegoeWPLight.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
+      url("assets/fonts/SegoeWPLight.ttf") format("truetype"), /* Safari, Android, iOS */
+      url("assets/fonts/SegoeWPLight.woff") format("woff"); /* Modern Browsers */
+    font-weight: normal;
+    font-style: normal;
+  }
+
+
+h1 {
+    font-family: "Asap-Regular";
+}
