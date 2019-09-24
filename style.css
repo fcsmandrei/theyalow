@@ -99,6 +99,106 @@
   }
 
 
-h1 {
-    font-family: "Asap-Regular";
+body, html {
+  width: 1300px;
+  margin: 0 auto;
+  font-size: 16px;
+}
+
+.inner {
+  margin: 0 140px auto;
+  height: auto; 
+}
+
+a{
+  text-decoration: none;
+}
+
+.bg_head {
+  
+  height: 566px;
+  background-image: url(assets/img/bg-top.jpg);
+  background-repeat: no-repeat;
+}
+
+.logo_block {
+  float: left;
+  margin-top: 30px;
+}
+
+.logo_img, .logo {
+  display: inline-block;
+}
+
+.logo_img {
+  vertical-align: top;
+}
+
+.logo {
+  font-family: "LucidaSans-Italic", sans-serif;
+  text-transform: uppercase;
+  color: #ffffff;
+  letter-spacing: 0.41px;
+  text-shadow: 0 2px 0 rgba(0, 0, 0, 0.42); 
+  font-size: 41px;  
+  margin-top: 25px; 
+}
+.nav {
+  float: right;
+  margin-top: 70px;
+}
+
+.nav_items li {
+  display: inline-block;
+  background-color: #f5c506;
+  padding-bottom: 1px;
+}
+
+
+
+.nav_item {
+  display: block;
+  position: relative;
+  background-color: #f5c506;
+  box-shadow: -4px -5px rgba(245,197,6, 0.27), -8px -8px rgba(245,197,6, 0.27);
+  font-family: SegoeWP;
+  font-size: 17px;
+  letter-spacing: 0.17px;
+  text-transform: uppercase;
+  color: #9b7d08;  
+}
+
+.about {
+  padding: 12px 22px 12px 69px;
+}
+.about::after {
+  content: url(assets/img/icon_person.svg);
+  position: absolute;
+  top: 11px;
+  left: 39px;
+  
+}
+
+.services {
+  padding: 12px 18px 12px 41px;
+  border-left: 1px solid #9b7d08;
+  border-right: 1px solid #9b7d08;
+}
+.services::after {
+  content: url(assets/img/icon_wrench.svg);
+  position: absolute;
+  top: 11px;
+  left: 14px;
+}
+
+
+.contact {
+  padding: 12px 22px 12px 50px;
+}
+.contact::after {
+  content: url(assets/img/icon_envelope.svg);
+  position: absolute;
+  top: 11px;
+  left: 17px;
+
 }
