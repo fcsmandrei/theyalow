@@ -204,6 +204,7 @@ a{
 
 .about {
   padding: 12px 22px 12px 69px;
+  z-index: 3;
 }
 .about::after {
   content: url(assets/img/icon_person.svg);
@@ -217,6 +218,7 @@ a{
   padding: 12px 18px 12px 41px;
   border-left: 1px solid #9b7d08;
   border-right: 1px solid #9b7d08;
+  z-index: 2;
 }
 .services::after {
   content: url(assets/img/icon_wrench.svg);
@@ -228,6 +230,7 @@ a{
 
 .contact {
   padding: 12px 22px 12px 50px;
+  z-index: 1;
 }
 .contact::after {
   content: url(assets/img/icon_envelope.svg);
@@ -359,10 +362,10 @@ margin-left: -12px;
 }
 
 .block_news h3 {
-  font-family: "PTSans-Regular", sans-serif;
+  font-family: "PTSans-Regular";
   font-size: 37px;
   text-transform: uppercase;
-  letter-spacing: -2.3px;
+  letter-spacing: -1.73px;
   color: #fff;
 }
 
@@ -382,13 +385,14 @@ margin-left: -12px;
 }
 
 .news_item p {
-  margin-top: 25px;
-  padding: 25px 31px 20px;
-  font-family: "SegoeWP";
-  font-size: 29px;
-  line-height: 38px;
-  letter-spacing: 0.29px;
-  color: #ffffff;  
+  position: absolute;
+    top: 14px;
+    left: 28px;
+    font-family: "SegoeWP-Light";
+    font-size: 29px;
+    line-height: 38px;
+    letter-spacing: 0.37px;
+    color: #ffffff;
 }
 
 .news_item:last-child {
@@ -396,6 +400,17 @@ margin-left: -12px;
   margin-left: 32px;  
   text-align: center;
   background-color: #ec9e03;
+}
+
+.news_item:last-child::before {
+  content: "22";
+  position: absolute;
+  top: 14px;
+  right: 16px;
+  font-family: "SegoeWP", sans-serif;
+  font-size: 25px;
+  letter-spacing: 0.25px;
+  color: #fff;
 }
 
 .news_item:last-child img {
@@ -416,9 +431,71 @@ margin-left: -12px;
 .plus::after {
   content: "+";
   position: absolute;
-  bottom: 8px;
-    right: 7px;
-    color: #fff;
-    font-size: 21px;
+  bottom: 11px;
+  right: 6px;
+  color: #fff;  
+  font-family: "SegoeWP", sans-serif;
+  font-size: 23px;
 }
 
+.plus:first-child::after {
+  bottom: 10px;
+  right: 13px;
+}
+
+.date {
+  margin-top: -3px;
+  position: relative;
+  width: 113px;
+  height: 86px;
+  background-color: #ddb101;
+}
+
+.date p, .date span {
+  position: absolute;
+}
+
+.date p {
+  top: 11px;
+  left: 28px;
+  font-family: "SegoeUI-Bold";
+  color: #ffffff;
+  font-size: 51px;
+  font-weight: 700;
+  line-height: 38px;
+  letter-spacing: 0.51px;
+}
+
+.date span {
+  top: 48px;
+  left: 31px;
+  font-family: "SegoeUI";  
+  color: #b26529;
+  font-size: 21px;
+  font-weight: 400;
+  line-height: 38px;
+  text-transform: uppercase;
+  letter-spacing: 0.21px;
+}
+
+.scrollbar_line {
+  width: 896px;
+  height: 15px;
+  position: relative;
+  top: 42px;
+  left: 73px;
+  border-radius: 7.5px;
+  background-color: #ffffff;
+  opacity: 0.48;
+}
+
+.scroll{
+  /* Style for "Rounded Re" */
+  width: 197px;
+  height: 15px;
+  position: absolute;
+  top: 0;
+  left: 247px;
+  border-radius: 7.5px;
+  background-color: #ec9e03;
+}
