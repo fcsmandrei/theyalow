@@ -499,3 +499,158 @@ margin-left: -12px;
   border-radius: 7.5px;
   background-color: #ec9e03;
 }
+
+.wrap_screes {
+  height: 499px;
+  background-image: url(assets/img/bg_main_2.jpg);
+  background-repeat: repeat-x;
+}
+
+.block_screens {
+  padding-top: 42px;
+  position: relative;
+}
+.block_screens h3 {
+  text-align: center;
+  margin-left: 3px;
+  color: #f5c506;
+  font-family: "PTSans-Regular", sans-serif;
+  font-size: 43px;
+  text-transform: uppercase;
+  letter-spacing: -2.72px;
+}
+
+.block_screens div {
+  position: absolute;
+}
+.block_screens ul {
+  float: right;
+}
+
+.desktop {
+  top: 136px;
+  left: 18px;
+  width: 323px;
+  height: 255px;
+}
+
+.desktop img {
+  display: block;
+  width: 323px;
+  height: 255px;
+}
+
+.desktop::after {
+  content: "";
+  position: absolute;
+  top: -43px;
+  left: -21px;
+  z-index: 4;
+  width: 116px;
+  height: 116px;
+  border-radius: 50%;
+  background-color: #f5c506;
+}
+.desktop::before {
+  content: "Its 100% Free";
+  position: absolute;
+  top: 8px;
+  left: -13px;
+  z-index: 5;
+  color: #ffffff;
+  font-family: "PTSans-Narrow";
+  font-size: 18.5px;
+  text-transform: uppercase;
+  letter-spacing: 0.51px;
+}
+
+.tablet {
+  top: 178px;
+  left: 364px;
+  width: 129px;
+  height: 173px;
+}
+
+.tablet img {
+  display: block;
+  width: 129px;
+  height: 173px;
+}
+
+.mobile {
+  top: 288px;
+  left: 519px;
+  width: 39px;
+  height: 63px;
+}
+
+.mobile img {
+  display: block;
+  width: 39px;
+  height: 63px;
+}
+
+.block_screens ul {
+  margin-top: 94px;
+  width: 349px;
+}
+
+.block_screens li {
+  position: relative;
+  margin-top: 22px;
+  color: #a9a9a7;
+  font-family: "OpenSans-Regular";
+  font-size: 22px;
+  line-height: 27px;
+  letter-spacing: 0.2px;
+}
+.block_screens li:first-child {
+  margin-top: 0;
+}
+.block_screens li:nth-child(3) {
+  margin-top: 14px;
+}
+
+.block_screens li::after {
+  content: "";
+  position: absolute;
+  top: 8px;
+  left: -33px;
+  width: 14px;
+  height: 14px;
+  border-radius: 50%;
+  background-color: #f5c506;
+}
+
+
+
+/* --------------------- footer ---------------- */
+
+.bg_footer {
+  height: 67px;
+  background-color: #4c4c4c;
+  box-shadow: 0 -3px 5px rgba(0, 0, 0, 0.75);
+}
+
+.logo_block--small {
+color: #ffffff;
+font-family: "Lucida Sans";
+font-size: 29px;
+font-style: italic;
+text-transform: uppercase;
+/* Text style for "TheYalow" */
+letter-spacing: 0.29px;
+}
+
+.logo_block--small .logo_img {
+  width: 54px;
+  height: 54px;
+  margin-top: 3px;
+}
+
+.logo_block--small .logo {
+  margin-top: 16px;
+  margin-left: -4px;
+  font-size: 29px;
+  letter-spacing: 0.29px;
+}
