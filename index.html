@@ -17,8 +17,8 @@
                <h1 class="logo">TheYalow</h1>
             </a>
             
-         </div>
-         <nav class="nav">
+         </div><!--
+         --><nav class="nav">
             <ul class="nav_items">
                <li><a href="#" class="nav_item about">About Us</a></li><!--
                --><li><a href="#" class="nav_item services">Services</a></li><!--
@@ -26,9 +26,10 @@
             </ul>
          </nav>
          <div class="teaser clearfix">
-            <div class="teaser_video">
+            <picture class="teaser_video">
+               <source srcset="assets/img/mobile_video_head.jpg" media="(min-width: 640px)">
                <img src="assets/img/video_top.jpg" alt="teazer">
-            </div>
+            </picture>
             <div class="teaser_describe">
                <p><strong>The cool 
                   </strong>The minimal</p> 
@@ -39,20 +40,23 @@
       
    <main class="bg_main">
       <div class="wrap_design">
-         <div class="inner">
-            <div class="design_items">
-               <div class="design_item">
+         <picture class="inner">
+            <picture class="design_items">
+               <picture class="design_item">
+                  <source srcset="assets/img/mobile_load.svg" media="(min-width: 640px)">
                   <img src="assets/img/icon_load.svg" alt="#">
                   <a href="#">Better design</a>
-               </div><!--    
-                --><div class="design_item">
+               </picture><!--    
+               --><picture class="design_item">
+                  <source srcset="assets/img/mobile_leaf.svg" media="(min-width: 640px)">
                   <img src="assets/img/icon_leaf.svg" alt="#">
                   <a href="#">Customise</a>
-               </div><!-- 
-               --><div class="design_item">
+               </picture><!-- 
+               --><picture class="design_item">
+                  <source srcset="assets/img/mobile_telegram.svg" media="(min-width: 640px)">
                   <img src="assets/img/icon_telegram.svg" alt="#">
                   <a href="#">Its free</a>
-               </div>
+               </picture>
             </div>   
          </div>
       </div>
@@ -62,13 +66,27 @@
                <h3 class="clearfix">Lorem ipsum dolor sit amet</h3>
                <div class="news_items">
                   <div class="news_item plus">
-                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor inci- <br> didunt ut</p>
+                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut</p>
                   </div><!--
-                  --><div class="news_item">
+                  --><picture class="news_item">
+                     <source srcset="assets/img/mobile_main_video.jpg" media="(min-width: 640px)">
                      <img src="assets/img/video_main.jpg" alt="#">
-                  </div><!--
-                  --><div class="news_item plus">
-                     <img src="assets/img/icon_twitter.svg" alt="twitter">
+                  </picture><!--
+                  --><div class="news_item plus twitter">
+                     <picture>
+                           <source srcset="assets/img/mobile_twitter.svg" media="(min-width: 640px)">
+                           <img src="assets/img/icon_twitter.svg" alt="twitter">
+                     </picture> <!--
+                     --><ul>
+                        <li class="triangle">Daily Mobile UI Design Inspiration #1 
+                              via @cssauthor</li>
+                        <li class="triangle">Daily Mobile UI Design Inspiration #1 
+                              via @cssauthor</li>
+                        <li class="triangle">Daily Mobile UI Design Inspiration #1 
+                              via @cssauthor</li>
+                        <li><input type="text"></li>
+                        
+                     </ul>                  
                   </div>
                </div>               
             </div>
